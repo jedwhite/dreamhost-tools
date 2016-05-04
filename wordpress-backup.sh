@@ -11,7 +11,7 @@ S3BUCKET="bucketname"
 
 # Setup
 TIME=`date +%Y-%m-%d`
-SITE="${SITENAME//./_}"
+SITE="${SITENAME//./_}_wordpress"
 FILENAME="${SITE}_files_backup-$TIME.tar.gz"
 DBFILE="${SITE}_wp_backup_$TIME.sql"
 DBARCHIVE=${DBFILE}.gz
