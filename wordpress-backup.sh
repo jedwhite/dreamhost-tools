@@ -21,7 +21,7 @@ DESDIR=~/backups
 
 # Endpoint required for DreamObjects
 S3ENDPOINT="--endpoint-url http://objects.dreamhost.com"
-S3DESTINATION="s3://${S3BUCKET}/${SITE}"
+S3DESTINATION="s3://${S3BUCKET}/${SITE}/"
 
 # Create backup files
 tar -cpzf $DESDIR/$FILENAME $SRCDIR
