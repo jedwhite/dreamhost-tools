@@ -20,10 +20,10 @@ Runs as a bash shell script designed to be called from a cron job
 
 Set the following variables to use:
 
-SITENAME="website.com"
-S3BUCKET="bucketname"
+* SITENAME="website.com"
+* S3BUCKET="bucketname"
 
-The SITENAME variable should match the name of the path where wordpress is installed.
+The SITENAME variable should match the name of the directory where wordpress is installed.
 
 Make sure the script is executable:
 chmod +x wordpress-backup.sh
