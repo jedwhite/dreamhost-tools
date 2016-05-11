@@ -6,6 +6,12 @@ Tools for managing DreamHost hosting
 
 Script name: wordpress-backup.sh
 
+This is a quick and easy script to backup a large wordpress site (files and database) from the command line.
+
+Many backup plugins that save to buckets can't work with files over 2G or a lot of files (eg BackupBuddy) and fail.
+
+This script can backup large file sets and databases to DreamObjects or S3 buckets.
+
 Backs up Wordpress to DreamObjects bucket from a Dreamhost VPS:
 * Wordpress Files directory
 * Wordpress Database
